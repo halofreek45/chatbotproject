@@ -52,8 +52,8 @@ h4 {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
-    height:100%;
-    overflow: hidden;
+    height: 100%;
+    overflow: scroll;
     height: 450px;
     border: 1px solid #C0C2C5;
     padding: 10px;
@@ -65,23 +65,25 @@ h4 {
     -moz-border-radius: 5;
     border-radius: 5px;
     height: 50px;
-    overflow: scroll;
+    overflow: hidden;
     padding: 2px;
     margin: 0px;
     border: 1px solid #C0C2C5;
     width: 100%;
+    position: relative;
 }
 
 #input {
-  background-color: #fff;
-  border: 0px solid #C0C2C5;
-  font-family: sans-serif;
-  color: #000;
-  padding: 5px;
-  margin-right: 3px;
-  text-decoration: none;
-  font-size: 20px;
-  width: 80%;
+    background-color: #fff;
+    border: 0px solid #C0C2C5;
+    font-family: sans-serif;
+    color: #000;
+    padding: 5px;
+    margin-right: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 80%;
+    position: relative;
 }
 
 #right-sidebar {
@@ -93,4 +95,37 @@ h4 {
     border: 0px solid #C0C2C5;
     font-size: 16px;
     font-weight: bold;
+}
+
+
+/*
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+*/
+
+.user {
+    color: red;
+}
+
+.bot {
+    color: blue;
 }
